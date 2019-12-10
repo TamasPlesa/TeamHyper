@@ -1,5 +1,11 @@
 package hu.flowacademy;
 
 public interface Urhajo {
-    legyorsuljaE();
+
+
+    boolean legyorsuljaE();
+    double milyenGyors();
+
+
+
 }

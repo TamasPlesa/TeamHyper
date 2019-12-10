@@ -3,6 +3,26 @@ package hu.flowacademy;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        LazadoGep egyes = new LazadoGep(200.1, true) {
+            @Override
+            public boolean elkapjaAVonosugar() {
+                return false;
+            }
+
+            @Override
+            public boolean legyorsuljaE() {
+                return false;
+            }
+
+            @Override
+            public double milyenGyors() {
+                return 0;
+            }
+        };
+
+        
+
+
     }
 }
