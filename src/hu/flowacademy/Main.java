@@ -19,6 +19,9 @@ public class Main {
                 return 0;
             }
         };
+
+        egyes.getSebesseg();
+
     }
 }
 
