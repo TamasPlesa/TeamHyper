@@ -30,7 +30,7 @@ public abstract class LazadoGep implements Urhajo{
         return sebesseg;
     }
 
-    public boolean isMeghibasodhatE() {
+    public boolean meghibasodhatE() {
         return meghibasodhatE;
     }
 

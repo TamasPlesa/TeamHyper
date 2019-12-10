@@ -21,7 +21,8 @@ public class Main {
             }
         };
 
-        
+        egyes.getSebesseg();
+
 
 
     }
