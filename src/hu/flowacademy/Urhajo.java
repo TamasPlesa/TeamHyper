@@ -1,11 +1,8 @@
 package hu.flowacademy;
 
-public interface Urhajo {
 
-
+public abstract interface Urhajo {
     boolean legyorsuljaE();
-    double milyenGyors();
+    double milyengyors();
+     }
 
-
-
-}
