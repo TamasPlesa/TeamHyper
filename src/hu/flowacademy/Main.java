@@ -3,7 +3,9 @@ package hu.flowacademy;
 public class Main {
 
     public static void main(String[] args) {
+
         Lazadogep egyes = new Lazadogep(200.1, true) {
+
             @Override
             public boolean elkapjaAVonosugar() {
                 return false;
@@ -15,7 +17,9 @@ public class Main {
             }
 
             @Override
+
             public double milyengyors() {
+
                 return 0;
             }
         };
