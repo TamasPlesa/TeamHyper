@@ -52,15 +52,7 @@ public class Main {
 //mint 10000.
 //– Az osztály legyen továbbá szöveges formára alakítható. Az adattagok értékein kívül
 //írja ki azt is, hogy egy X-Wingről van szó.
-//• Írj egy MilleniumFalcon osztályt, ami implementálja az Urhajo és Hiperhajtomu interfészeket.
-//– Az osztálynak legyen egy lebegőpontos tapasztalat adattagja.
-//– Az osztály rendelkezzen egy default konstruktorral, ami 100-ra állítja az adattag értékét.
-// A metódusai az alábbiak szerint legyenek megvalósítva: a Millenium Falcon
-//gyorsasága a tapasztalatának kétszeresével egyezik meg, és bármilyen Urhajo-t képes legyorsulni,
-// akinek gyorsasága kisebb, mint a Falcon gyorsasága. Ha a Millenium
-//Falcon hiperugrást végez, akkor tapasztalata 500-al nő.
-//– Az osztály legyen szöveges formára alakítható, ami kiírja, hogy a Millenium Falconról
-//van szó, és megadja a tapasztalatát.
+
 //• Írj egy StarWars nevű futtatható osztályt. Az osztály rendelkezzen egy urhajok statikus függvénnyel,
 // ami egy fájl elérési útját várja paraméterül, visszatérése pedig void. A
 //metódus feladata, hogy a fájlból beolvasott sorokat feldolgozza, és létrehozzon belőlük

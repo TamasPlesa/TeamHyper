@@ -5,6 +5,10 @@ public class XWing extends LazadoGep implements Hiperhajtomu{
         super(150, true);
     }
 
+    public XWing() {
+        super(150, true);
+    }
+
     @Override
     public boolean elkapjaAVonosugar() {
         if(this.meghibasodhatE() && this.getSebesseg()<1000) {
@@ -19,7 +23,7 @@ public class XWing extends LazadoGep implements Hiperhajtomu{
     }
 
     @Override
-    public double milyenGyors() {
+    public double milyengyors() {
         return 0;
     }
 

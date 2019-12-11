@@ -4,6 +4,18 @@ public class MilleniumFalcon implements Urhajo, Hiperhajtomu {
 
     private double tapasztalat;
 
+    public MilleniumFalcon() {
+        this.tapasztalat = 100;
+    }
+
+    public double getTapasztalat() {
+        return tapasztalat;
+    }
+
+    public void setTapasztalat(double tapasztalat) {
+        this.tapasztalat = tapasztalat;
+    }
+
 
     @Override
     public void hiperUgras() {
@@ -23,9 +35,6 @@ public class MilleniumFalcon implements Urhajo, Hiperhajtomu {
         return (this.tapasztalat * 2);
     }
 
-    public MilleniumFalcon(double tapasztalat) {
-        this.tapasztalat = 100;
-    }
     @Override
     public String toString() {
         return "Ez a MilleniumFalcon, neki " + tapasztalat + " tapasztalata van";
