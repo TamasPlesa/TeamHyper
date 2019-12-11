@@ -18,7 +18,7 @@ public class XWing extends LazadoGep implements Hiperhajtomu{
     }
 
     @Override
-    public boolean legyorsuljaE() {
+    public boolean legyorsuljaE(Urhajo urhajo) {
         return false;
     }
 

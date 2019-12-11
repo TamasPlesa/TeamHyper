@@ -22,8 +22,12 @@ public class MilleniumFalcon implements Urhajo, Hiperhajtomu {
         this.tapasztalat += 500;
     }
 
+    public String toString() {
+        return "Ez a MilleniumFalcon, neki " + tapasztalat + " tapasztalata van";
+    }
+
     @Override
-    public boolean legyorsuljaE() {
+    public boolean legyorsuljaE(Urhajo urhajo) {
         if(this.milyengyors() > milyengyors()) {
             return true;
         }
@@ -32,11 +36,6 @@ public class MilleniumFalcon implements Urhajo, Hiperhajtomu {
 
     @Override
     public double milyengyors() {
-        return (this.tapasztalat * 2);
-    }
-
-    @Override
-    public String toString() {
-        return "Ez a MilleniumFalcon, neki " + tapasztalat + " tapasztalata van";
+        return 0;
     }
 }

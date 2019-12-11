@@ -9,8 +9,6 @@ public abstract class Lazadogep implements Urhajo {
         this.meghibasodhatE = meghibasodhatE;
     }
 
-    public abstract boolean elkapjaAVonosugar();
-
     public double getSebesseg() {
         return sebesseg;
     }
@@ -25,5 +23,27 @@ public abstract class Lazadogep implements Urhajo {
 
     public void setMeghibasodhatE(boolean meghibasodhatE) {
         this.meghibasodhatE = meghibasodhatE;
+    }
+
+    public abstract boolean elkapjaAVonosugar();
+
+    @Override
+    public boolean legyorsuljaE(Urhajo urhajo) {
+        if(urhajo instanceof Lazadogep) {
+            if(this.getSebesseg() > ((Lazadogep) urhajo).getSebesseg() && ((Lazadogep) urhajo).isMeghibasodhatE()); {
+                return true;
+            }
+        }
+        if (urhajo instanceof  MilleniumFalcon) {
+            if (this.getSebesseg() > urhajo.milyengyors() *2) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public double milyengyors() {
+        return this.sebesseg;
     }
 }
